@@ -327,3 +327,35 @@ footer {
     }
 }
 
+@media screen and (max-width: 767px) {
+    .sobre-mi {
+        padding: 20px;
+    }
+
+    .sobre-mi .contenedor {
+        max-width: 90%; 
+    }
+
+    .seccion-titulo {
+        font-size: 1.5rem; 
+    }
+
+    .seccion-texto {
+        font-size: 1rem; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand img {
+        width: 40px; /
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        margin-top: 10px; 
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+    }
+}
